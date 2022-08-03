@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+*{ /* CSS reset */
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	font-family: 'Montserrat normal',
+		"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-transform: lowercase;
+	box-sizing: border-box;
+}
+.clearfloat{
+	font-size: 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 0px;
+	width: 0px;
+	line-height: 0px;
+	border: 0px none;
+	float: none;
+	clear: both;
+}
+@font-face{
+	font-family: 'Montserrat thin';
+	src: url("../fonts/Montserrat/Montserrat-Thin.ttf") format('truetype');
+	font-weight: thin;
+}
+@font-face{
+	font-family: 'Montserrat normal';
+	src:url("../fonts/Montserrat/Montserrat-Regular.ttf") format('truetype');
+	font-weight: normal;
+}
+@font-face{
+	font-family: 'WindSong';
+	src:url("../fonts/WindSong/WindSong-Regular.ttf") format('truetype');
+	font-weight: normal;
+}
+header{
+	text-align: center;
+	background: center no-repeat;
+	background-image: url("../images/swim_crop.png");
+	background-size: cover;
+	min-height: 150px;
+	box-shadow: 1px 1px 10px 5px #798994;
+}
+header img{
+	float: left;
+	height: 90px;
+	padding: 0.5%;
+}
+#indexheader{
+	min-height: 250px;
+}
+nav{
+	float: right;
+	vertical-align: top;
+}
+nav ul{
+	float: both;
+	list-style: none;
+	overflow: hidden;
+	font-size: 125%;
+}
+nav li{
+	float: left;
+	display: inline;
+}
+nav li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 0.5em;
+	margin: 0.5em;
+	font-family: 'Montserrat normal', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-color: rgba(231,219,203,0.7);
+	border-radius: 20px;
+}
+nav li a:hover{
+	background-color:rgba(255,204,102,0.7);
+}
+header h1{
+	font-size:250%;
+	font-family: 'Montserrat thin', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	letter-spacing: 2px;
+	clear:both;
+	align-self: baseline;
+}
+h1{
+	font-size:150%;
+	font-family: 'Montserrat thin', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+h2{
+	font-size:125%;
+	font-family: 'Montserrat thin', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+aside{
+	width: 45%;
+	padding: 5%;
+	height: 100%;
+}
+aside img{
+	width: 80%;
+	float: none;
+}
+aside a{
+	text-decoration: none;
+	color: #5B8EC6;
+	font-size: 125%;
+	text-align:center;
+}
+aside a:hover{
+	color: #33669A;
+}
+aside{
+	float: left;
+	text-align: center;
+}
+article{
+	padding: 5%;
+	float: none;
+	text-align: left;
+}
+#classes{
+	float: right;
+	text-align: center;
+}
+#contactsection #right{
+	text-align: center;
+}
+article img{
+	height:10%;
+	width: 10%;
+}
+article a{
+	text-decoration: none;
+	color: black;
+	font-size: 100%;
+}
+th{
+	text-align: center;
+	border-bottom: double thin #5B8EC6;
+}
+td{
+	border: solid thin #5B8EC6;
+	padding: 1%;
+	margin:0;
+}
+#contactsection #left{
+	width:50%;
+}
+label{
+	text-align: left;
+	width:20%;
+	height:2em;
+	padding: 1%;
+	margin: 1%;
+	display: inline-block;
+}
+input, textarea{
+	float: right;
+	border: solid thin #5B8EC6;
+	clear: none;
+	width:60%;
+	padding: 1%;
+	margin: 1%;
+	resize: none;
+	text-align: left;
+}
+input{
+	height:2em;
+}
+textarea{
+	height:5em;
+}
+input:focus, textarea:focus{
+	border-color: rgba(255,204,102,0.7);
+}
+input[type=submit]{
+	background-color: #5B8EC6;
+	text-align: center;
+	height: 2.5em;
+}
+footer{
+	width: 100%;
+	clear: both;
+	background-image: url("../images/swim_crop.png");
+	background-size: cover;
+	min-height: 10em;
+	text-align:center;
+	box-shadow: 1px 1px 10px 5px #798994;
+}
+footer img{
+	height: 10%;
+	width:10%;
+}
+#menu{
+	float:left;
+	clear: none;
+	padding: 1%;
+	padding-left: 8em;
+}
+footer ul{
+	list-style: none;
+	display: block;
+}
+footer li{
+	display: list-item;
+	margin: 1%;
+}
+footer li a{
+	text-decoration: none;
+	color: black;
+	padding: 0.5em;
+	margin: 0.5em;
+}
+#social{
+	float:right;
+	clear:none;
+	padding: 1%;
+	margin: 1%;
+}
